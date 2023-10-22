@@ -1,6 +1,8 @@
-from torch import Tensor, nn
+from torch import nn
 import torch
 
+
+# The discriminator estimates a HASQI score that is backpropigatable to the generator
 class LearnableSigmoid(nn.Module):
     def __init__(self, in_features, beta=1):
         super().__init__()

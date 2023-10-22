@@ -1,0 +1,4 @@
+TODO:
+Train from data
+Get performance metrics
+Analyze memory and computation costs
